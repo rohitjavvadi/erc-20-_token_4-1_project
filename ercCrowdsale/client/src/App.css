@@ -1,0 +1,134 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/* General Styles */
+/* General Styles */
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Fallback background color */
+  background-image: url('background-image1.jpg'); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+}
+
+.bg{
+  filter: blur(80px);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(88, 22, 22, 0.5); /* 50% transparency white overlay */
+  z-index: 1; /* Place the overlay above other elements */
+}
+
+.box{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+}
+
+.head{
+  color: #61dafb;
+  font-weight: 800;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header Styles */
+.App-header {
+  background-color: transparent; /* Set background to transparent */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #61dafb;
+  margin-left: 700px;
+
+}
+
+.list-group-item{
+  color: #61dafb;
+}
+
+.nav-link{
+  color: #61dafb;
+  font-family: 'Arial', sans-serif;
+  font-weight: 550;
+}
+
+.navbar-nav{
+  margin-right: 90px;
+  color: #61dafb;
+
+}
+
+/* ... (rest of your styles) */
+
+/* Scrolling Animation */
+.welcome-text {
+  font-size: 2rem;
+  color: #61dafb;
+  margin: 20px auto; /* Center horizontally */
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.scroll {
+  animation: scrollText 20s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
